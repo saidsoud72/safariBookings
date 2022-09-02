@@ -1,0 +1,163 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../assets/smartworking_1920x1280-1680x700.jpg");
+    /* position: absolute; */
+    background-repeat:repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.logo-header{
+    width: 10%;
+}
+.nav-links{
+    width: 40%;
+
+}
+.nav-links ul{
+    display: block;
+
+}
+.nav-links ul li{
+    display: flex;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-links ul li{
+    list-style: none;
+    box-sizing: border-box;
+    /* border: 1px solid ; */
+}
+.nav-links ul li a{
+text-decoration: none;
+
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+#btn{
+    align-items: right;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    box-shadow: rgb(243, 243, 243);
+}
+.container{
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.form_fetchData{
+    display: flex;
+    flex-direction: column;
+    background: red;
+    align-content:center;
+    height: auto;
+    width: 60%;
+    padding: 75px;
+}
+#dataFetch > h4{
+    color: black;
+    padding-bottom: 0px;
+}
+h4 > h6{
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+}
+.search-hotel{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.customer_ratings{
+    padding-top: 18px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: grey;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.customer_ratings:hover{
+    background: #ffff;
+
+}
+
+.form_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    width: 60%;
+    padding:20px
+
+    
+}
+.comments{
+    padding-top: 18px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: grey;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.comment-form{
+    margin: auto;
+}
+.comments:hover{
+    background: #ffff;
+}
+.subcribe{
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    background: rgb(187, 187, 187);
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.subscribe_header{
+    padding-top: 5px;
+    text-align: center;
+}
+.subcribe_section{
+    margin: auto;
+}
+#newsletter_subscibe{
+    height: 30px;
+}
