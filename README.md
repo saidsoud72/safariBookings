@@ -2,9 +2,7 @@
 This is an Online Booking website which assist travelers to know accommodation and hotel in nearby location { 2nd september 2022}
 #### By **{ Said Soud Omar}**
 ## Description
-{This is a landing page of an online travelling agency offering accomodation and nearby hotels.
-. }
-
+This is a landing page of an online travelling agency offering accomodation and nearby hotels.
 
 ## Technologies Used
 <ol>
