@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url("../assets/istockphoto-627892060-612x612.jpg");
+    background-image: url("../assets/smartworking_1920x1280-1680x700.jpg");
     /* position: absolute; */
     background-repeat:repeat ;
     background-size: cover;
@@ -22,10 +22,10 @@ nav{
     height: 100px;
     width: 100px;
 }
-.soud{
+.logo-header{
     width: 10%;
 }
-.header-links{
+.nav-links{
     width: 40%;
 
 }
@@ -52,7 +52,7 @@ text-decoration: none;
     content: "";
     width: 0%;
     height: 3px;
-    background: blue;
+    background: #f44336;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -69,7 +69,7 @@ text-decoration: none;
     border-radius: 8px;
     box-shadow: rgb(243, 243, 243);
 }
-.section{
+.container{
     height: 88%;
     display: flex;
     flex-direction: column;
@@ -77,14 +77,14 @@ text-decoration: none;
     align-items: center;
    
 }
-.dashboard-form{
+.form_fetchData{
     display: flex;
     flex-direction: column;
     background: red;
     align-content:center;
     height: auto;
     width: 60%;
-    padding: 75px;
+    padding: 25px;
 }
 #dataFetch > h4{
     color: black;
@@ -97,7 +97,7 @@ h4 > h6{
     color: white;
 }
 .search-hotel{
-    padding-top: 18px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -110,6 +110,7 @@ h4 > h6{
     cursor: pointer;
     border-radius: 8px;
 }
+
 .customer_ratings:hover{
     background: #ffff;
 
@@ -119,15 +120,15 @@ h4 > h6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
     width: 60%;
+    height: 200px;
     padding:20px
 
     
 }
 .comments{
     padding-top: 18px;
-    padding-left: 10px;
+    padding-left: 17px;
     border: 1px solid grey;
     background: grey;
     width: 40%;
