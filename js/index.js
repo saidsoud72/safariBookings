@@ -1,4 +1,7 @@
-function analyseData(hotelObj) {
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById('comment_form').addEventListener('submit', commentInput)
+  });
+function fetchHotelsDetails(hotelObj) {
     for (let i = 0; i < hotelObj.length; i++) {
         let div = document.getElementById('dataFetch')
         let h4=document.createElement('h4')
@@ -10,25 +13,58 @@ function analyseData(hotelObj) {
         div.appendChild(h4)
         h4.appendChild(h6)
         h6.appendChild(h5)
-
-
     }
-
-
     }
+    function commentInput(e){
+     e.preventDefault();
+     console.log(e.target.comment_input.value)
+     let commentEntered={
+         comment:e.target.comment_input.value,
+     }
+     postComment(commentEntered)
+     outputComments(commentEntered)
+    }
+    function fetchComment(){
+        fetch('http://localhost:3000/comments')
+        .then(resp=>resp.json())
+        .then(commentsObtain=>outputComments(commentsObtain))
+      
+    } 
+   function postComment(commentEntered) {
+    return fetch('http://localhost:3000/comments', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(commentEntered)
+      })
+      .then(response => response.json())
+      .then(comment => console.log(comment))
 
-let initialize = () => {
+  }
+function outputComments(comment){
+        comment.forEach(com=>{
+        const ul = document.getElementById('rating_comments');
+        const li = document.createElement('li')
+        li.innerHTML += com.comment;
+        ul.appendChild(li)
+        })
+      }
+
+
+
     let inputCity = document.getElementById('search_hotel')
-
     inputCity.addEventListener('submit', (e) => {
         e.preventDefault();
         let input = document.getElementById('city');
         fetch(`http://localhost:3000/${input.value}`)
             .then(response => response.json())
-            .then(data => analyseData(data));
+            .then(data => fetchHotelsDetails(data));
 
     })
+
+function init(){
+    fetchComment()
 }
-
-
-document.addEventListener('DOMContentLoaded', initialize);
+init()
