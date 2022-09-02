@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cheap Hotel booking</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/LOGO.jpg" alt="LOGO picture" title="company logo">
+
+            </div>
+            <div class="logo-header">
+                <h3>Mary&Martin Hotel Booking </h3>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button id="btn"> Get Started</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="form_fetchData">
+            <div class="form_1">
+                <form id="search_hotel" action="" method="POST">
+                    <label for="cities">Select your Location:</label>
+                    <select id="city" name="cities">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Kisumu">Kisumu</option>
+                        <option value="Nakuru">Nakuru</option>
+                        <option value="Mombasa">Mombasa</option>
+                    </select>
+                    <input type="submit" value=" Search Hotel">
+                </form>
+            </div>
+            <div id="dataFetch">
+                <!-- <h4 id="hotel_name"></h4>
+                <ul id="hotel_details">
+                    
+                </ul> -->
+
+
+            </div>
+        </div>
+        <div class="form_2">
+            <div class="comments">
+                <h3>Feedback Form</h3>
+                <form id="comment-form" action="" method="POST">
+                    <input id="comment_input" type="text" name="comment" placeholder="Add a comment..."></input>
+                    <input id="comment_button" type="submit" value="Post"></input>
+                </form>
+            </div>
+            <div class="customer_ratings">
+                <h3>Rate Our service</h3>
+                <ul class="rating_comments">
+
+                </ul>
+
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+
+        </div>
+        <div class="subcribe">
+            <h3 class="subscribe_header">Subcribe to Our Newsletter</h3>
+            <form action="" class="subcribe_section" method="POST">
+                <input type="text" id="newsletter_subscibe" placeholder="Enter Your email">
+                <input id="newsletter_subscibe" type="submit" value="Subscribe">
+            </form>
+        </div>
+
+    </div>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
