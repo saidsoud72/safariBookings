@@ -80,7 +80,7 @@ text-decoration: none;
 .form_fetchData{
     display: flex;
     flex-direction: column;
-    background: red;
+    background:yellow;
     align-content:center;
     height: auto;
     width: 60%;
@@ -104,8 +104,8 @@ h4 > h6{
 .customer_ratings{
     padding-top: 18px;
     padding-left: 10px;
-    border: 1px solid grey;
-    background: grey;
+    border: 1px solid gold;
+    background: paleturquoise;
     width: 40%;
     cursor: pointer;
     border-radius: 8px;
@@ -129,8 +129,8 @@ h4 > h6{
 .comments{
     padding-top: 18px;
     padding-left: 17px;
-    border: 1px solid grey;
-    background: grey;
+    border: 1px solid gold;
+    background: paleturquoise;
     width: 40%;
     cursor: pointer;
     border-radius: 8px;
@@ -145,7 +145,7 @@ h4 > h6{
     /* align-items: flex-end; */
     display: flex;
     flex-direction: column;
-    background: rgb(187, 187, 187);
+    background: yellow;
     height: 150px;
     width: 100%;
     align-items: center;
