@@ -25,30 +25,30 @@ nav{
 .dashboard-header{
     width: 10%;
 }
-.nav-links{
+.Dashboard-links{
     width: 40%;
 
 }
-.nav-links ul{
+.Dashboard-links ul{
     display: block;
 
 }
-.nav-links ul li{
+.Dashboard-links ul li{
     display: flex;
     display: inline-block;
     padding-left: 40px;
     padding-right: 40px;
 }
-.nav-links ul li{
+.Dashboard-links ul li{
     list-style: none;
     box-sizing: border-box;
     /* border: 1px solid ; */
 }
-.nav-links ul li a{
+.Dashboard-links ul li a{
 text-decoration: none;
 
 }
-.nav-links ul li::after{
+.Dashboard-links ul li::after{
     content: "";
     width: 0%;
     height: 3px;
@@ -58,7 +58,7 @@ text-decoration: none;
     transition: 0.5s;
 
 }
-.nav-links ul li:hover::after{
+.Dashboard-links ul li:hover::after{
     width: 100%;
 }
 #btn{
