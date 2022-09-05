@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('comment_form').addEventListener('submit', commentInput)
   });
+
+  document.getElementById('btn').addEventListener('click', () => alert('APPOLOGY, Seyyid safari is facing some technical error'))
 function fetchHotelsDetails(hotelObj) {
     for (let i = 0; i < hotelObj.length; i++) {
         let div = document.getElementById('dataFetch')
