@@ -141,7 +141,7 @@ h4 > h6{
 .comments:hover{
     background: #ffff;
 }
-.subcribe{
+.Bottom{
     /* align-items: flex-end; */
     display: flex;
     flex-direction: column;
@@ -152,11 +152,11 @@ h4 > h6{
     margin: auto;
     margin-bottom: 10px;
 }
-.subscribe_header{
+.Bottom_header{
     padding-top: 5px;
     text-align: center;
 }
-.subcribe_section{
+.subcribe_Docket{
     margin: auto;
 }
 #newsletter_subscibe{
