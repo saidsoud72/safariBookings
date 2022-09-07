@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('comment_form').addEventListener('submit', commentInput)
   });
 
-  document.getElementById('btn').addEventListener('click', () => alert('GREETINGS, It is pleasure starting a tour with us'))
+  document.getElementById('btn').addEventListener('click', () => alert('We are delighted to have you as our customer.'))
 function fetchHotelsDetails(hotelObj) {
     for (let i = 0; i < hotelObj.length; i++) {
         let div = document.getElementById('dataFetch')
