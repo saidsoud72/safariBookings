@@ -3,6 +3,7 @@
     margin: 0; */
     font-family: 'Poppins', sans-serif;
 }
+
 body{
     background-image: url("../assets/istockphoto-627892060-612x612.jpg");
     /* position: absolute; */
@@ -22,33 +23,33 @@ nav{
     height: 100px;
     width: 100px;
 }
-.logo-header{
+.dashboard-header{
     width: 10%;
 }
-.nav-links{
+.Dashboard-links{
     width: 40%;
 
 }
-.nav-links ul{
+.Dashboard-links ul{
     display: block;
 
 }
-.nav-links ul li{
+.Dashboard-links ul li{
     display: flex;
     display: inline-block;
     padding-left: 40px;
     padding-right: 40px;
 }
-.nav-links ul li{
+.Dashboard-links ul li{
     list-style: none;
     box-sizing: border-box;
     /* border: 1px solid ; */
 }
-.nav-links ul li a{
+.Dashboard-links ul li a{
 text-decoration: none;
 
 }
-.nav-links ul li::after{
+.Dashboard-links ul li::after{
     content: "";
     width: 0%;
     height: 3px;
@@ -58,7 +59,7 @@ text-decoration: none;
     transition: 0.5s;
 
 }
-.nav-links ul li:hover::after{
+.Dashboard-links ul li:hover::after{
     width: 100%;
 }
 #btn{
@@ -80,7 +81,7 @@ text-decoration: none;
 .form_fetchData{
     display: flex;
     flex-direction: column;
-    background: red;
+    background:yellow;
     align-content:center;
     height: auto;
     width: 60%;
@@ -104,8 +105,8 @@ h4 > h6{
 .customer_ratings{
     padding-top: 18px;
     padding-left: 10px;
-    border: 1px solid grey;
-    background: grey;
+    border: 1px solid gold;
+    background: paleturquoise;
     width: 40%;
     cursor: pointer;
     border-radius: 8px;
@@ -129,8 +130,8 @@ h4 > h6{
 .comments{
     padding-top: 18px;
     padding-left: 17px;
-    border: 1px solid grey;
-    background: grey;
+    border: 1px solid gold;
+    background: paleturquoise;
     width: 40%;
     cursor: pointer;
     border-radius: 8px;
@@ -141,22 +142,22 @@ h4 > h6{
 .comments:hover{
     background: #ffff;
 }
-.subcribe{
+.Bottom{
     /* align-items: flex-end; */
     display: flex;
     flex-direction: column;
-    background: rgb(187, 187, 187);
+    background: yellow;
     height: 150px;
     width: 100%;
     align-items: center;
     margin: auto;
     margin-bottom: 10px;
 }
-.subscribe_header{
+.Bottom_header{
     padding-top: 5px;
     text-align: center;
 }
-.subcribe_section{
+.subcribe_Docket{
     margin: auto;
 }
 #newsletter_subscibe{
