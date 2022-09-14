@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
 //click event for the getstarted button
 document.getElementById('btn').addEventListener('click', () => alert('We are delighted to have you as our customer'))
 
-
 //fetching hotel data from the JSON server and printing them on the html
 
 //function to print the searched hotels on the html
