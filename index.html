@@ -19,14 +19,14 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="./assets/Federico_Veronesi_Lions-cover-image-e359a4e.jpg" alt="LOGO " title="company symbol">
+                <img src="./assets/Federico_Veronesi_Lions-cover-image-e359a4e.jpg" alt="LOGO picture" title="company logo">
 
             </div>
-            <div class="dashboard-header">
+            <div class="logo-header">
                 <h3>Seyyid Safari's & Tours </h3>
             </div>
 
-            <div class="Dashboard-links">
+            <div class="nav-links">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
@@ -49,7 +49,7 @@
                         <option value="Nakuru">Nakuru</option>
                         <option value="Mombasa">Mombasa</option>
                     </select>
-                    <input type="submit" value=" Search Hotel">
+                    <input id="btn1" type="submit" value=" Search Hotel">
                 </form>
             </div>
             <div id="dataFetch">
@@ -66,7 +66,7 @@
                 <h3>Feedback Form</h3>
                 <form id="comment_form" action="" method="POST">
                     <input id="comment_input" type="text" name="comment" placeholder="Add a comment..."></input>
-                    <input id="comment_button" type="submit" value="Post"></input>
+                    <input id="comment_button" class="buttons" type="submit" value="Post"></input>
                 </form>
             </div>
             <div class="customer_ratings">
@@ -83,15 +83,13 @@
             </div>
 
         </div>
-        <div class="Bottom">
-            <h3 class="Bottom_header">Subcribe to Our Newsletter</h3>
-            <form action="" class="subcribe_Docket" method="POST">
-                <input type="text" id="newsletter_subscibe" placeholder="Enter Your email">
-                <input id="newsletter_subscibe" type="submit" value="Subscribe">
+        <div class="subcribe">
+            <h3 class="subscribe_header">Subcribe to Our Newsletter</h3>
+            <form id="subcribe_section" method="POST">
+                <input type="text" id="newsletter_subscribe" placeholder="Enter Your email">
+                <input type="submit" class="buttons">
             </form>
         </div>
-      
-        
 
     </div>
     <script src="./js/index.js"></script>

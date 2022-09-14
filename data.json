@@ -1,91 +1,144 @@
 {
-    "Nairobi": [
-      {
-        "hotelName": "Villa villa",
-        "location": "Westlands",
-        "price": "4500",
-        "beds": "1",
-        "id": 1
-      },
-      {
-        "hotelName": "Famous gates",
-        "location": "Giant Schnauzer",
-        "price": "2500",
-        "beds": "1",
-        "id": 2
-      }
-    ],
-    "Kisumu": [
-      {
-        "hotelName": "Kibandaski",
-        "location": "Down Town",
-        "price": "1500",
-        "beds": "2",
-        "id": 1
-      },
-      {
-        "hotelName": "Samaki Gates",
-        "location": "Kendu Bay",
-        "price": "4500",
-        "beds": "1",
-        "id": 2
-      }
-    ],
-    "Nakuru": [
-      {
-        "hotelName": "Blue Ivy Hotel",
-        "location": "Menengai",
-        "price": "4500",
-        "beds": "1",
-        "id": 1
-      },
-      {
-        "hotelName": "Ibis park",
-        "location": "Lake Nakuru",
-        "price": "4500",
-        "beds": "1",
-        "id": 2
-      },
-      {
-        "hotelName": " Berryly Hotel",
-        "location": "CDB",
-        "price": "4500",
-        "beds": "1",
-        "id": 3
-      }
-    ],
-    "Mombasa": [
-      {
-        "hotelName": "Hill crest",
-        "location": "Nyali Beach",
-        "price": "6000",
-        "beds": "1",
-        "id": 1
-      },
-      {
-        "hotelName": "Beach View Hotel",
-        "location": "Baobab",
-        "price": "7000",
-        "beds": "1",
-        "id": 2
-      },
-      {
-        "hotelName": "English Point",
-        "location": "Voi",
-        "price": "6000",
-        "beds": "1",
-        "id": 3
-      }
-    ],
-    "comments": [
-      {
-        "comment": "great services",
-        "id": 1
-      },
-      {
-        "comment": "great services",
-        "id": 2
-      }
-    ]
-    
-  }
+  "Nairobi": [
+    {
+      "hotelName": "Villa villa",
+      "location": "Westlands",
+      "price": "4500",
+      "beds": "1",
+      "id": 1
+    },
+    {
+      "hotelName": "Famous gates",
+      "location": "Giant Schnauzer",
+      "price": "2500",
+      "beds": "1",
+      "id": 2
+    }
+  ],
+  "Kisumu": [
+    {
+      "hotelName": "Kibandaski",
+      "location": "Down Town",
+      "price": "1500",
+      "beds": "2",
+      "id": 1
+    },
+    {
+      "hotelName": "Samaki Gates",
+      "location": "Kendu Bay",
+      "price": "4500",
+      "beds": "1",
+      "id": 2
+    }
+  ],
+  "Nakuru": [
+    {
+      "hotelName": "Blue Ivy Hotel",
+      "location": "Menengai",
+      "price": "4500",
+      "beds": "1",
+      "id": 1
+    },
+    {
+      "hotelName": "Ibis park",
+      "location": "Lake Nakuru",
+      "price": "4500",
+      "beds": "1",
+      "id": 2
+    },
+    {
+      "hotelName": " Berryly Hotel",
+      "location": "CDB",
+      "price": "4500",
+      "beds": "1",
+      "id": 3
+    }
+  ],
+  "Mombasa": [
+    {
+      "hotelName": "Hill crest",
+      "location": "Nyali Beach",
+      "price": "6000",
+      "beds": "1",
+      "id": 1
+    },
+    {
+      "hotelName": "Beach View Hotel",
+      "location": "Baobab",
+      "price": "7000",
+      "beds": "1",
+      "id": 2
+    },
+    {
+      "hotelName": "English Point",
+      "location": "Voi",
+      "price": "6000",
+      "beds": "1",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "comment": "great services",
+      "id": 1
+    },
+    {
+      "comment": "great services",
+      "id": 2
+    },
+    {
+      "comment": "bnmm",
+      "id": 3
+    },
+    {
+      "comment": "",
+      "id": 4
+    },
+    {
+      "comment": "bbbbb",
+      "id": 5
+    },
+    {
+      "comment": "   nnn",
+      "id": 6
+    },
+    {
+      "comment": "bbbb",
+      "id": 7
+    },
+    {
+      "comment": "bbbb",
+      "id": 8
+    },
+    {
+      "comment": "great",
+      "id": 9
+    },
+    {
+      "comment": "great",
+      "id": 10
+    },
+    {
+      "comment": "great",
+      "id": 11
+    },
+    {
+      "comment": "great",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "userEmail": "sigei@gmail.com",
+      "id": 1
+    },
+    {
+      "userEmail": "sige@gmail.com",
+      "id": 2
+    },
+    {
+      "userEmail": "sige@gmail.com",
+      "id": 3
+    }
+  ]
+}

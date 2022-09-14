@@ -3,7 +3,6 @@
     margin: 0; */
     font-family: 'Poppins', sans-serif;
 }
-
 body{
     background-image: url("../assets/istockphoto-627892060-612x612.jpg");
     /* position: absolute; */
@@ -11,45 +10,47 @@ body{
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: auto;
 }
 .logo img{
     height: 100px;
     width: 100px;
 }
-.dashboard-header{
+.logo-header{
     width: 10%;
 }
-.Dashboard-links{
+.nav-links{
     width: 40%;
 
 }
-.Dashboard-links ul{
+.nav-links ul{
     display: block;
 
 }
-.Dashboard-links ul li{
+.nav-links ul li{
     display: flex;
     display: inline-block;
     padding-left: 40px;
     padding-right: 40px;
 }
-.Dashboard-links ul li{
+.nav-links ul li{
     list-style: none;
     box-sizing: border-box;
     /* border: 1px solid ; */
 }
-.Dashboard-links ul li a{
+.nav-links ul li a{
 text-decoration: none;
 
 }
-.Dashboard-links ul li::after{
+.nav-links ul li::after{
     content: "";
     width: 0%;
     height: 3px;
@@ -59,8 +60,11 @@ text-decoration: none;
     transition: 0.5s;
 
 }
-.Dashboard-links ul li:hover::after{
+.nav-links ul li:hover::after{
     width: 100%;
+}
+.buttons:hover{
+    background: #f44336;
 }
 #btn{
     align-items: right;
@@ -87,6 +91,9 @@ text-decoration: none;
     width: 60%;
     padding: 25px;
 }
+.form_1{
+    width: fit-content;
+}
 #dataFetch > h4{
     color: black;
     padding-bottom: 0px;
@@ -107,6 +114,7 @@ h4 > h6{
     padding-left: 10px;
     border: 1px solid gold;
     background: paleturquoise;
+    height: auto;
     width: 40%;
     cursor: pointer;
     border-radius: 8px;
@@ -129,7 +137,7 @@ h4 > h6{
 }
 .comments{
     padding-top: 18px;
-    padding-left: 17px;
+    padding: 17px;
     border: 1px solid gold;
     background: paleturquoise;
     width: 40%;
@@ -138,11 +146,15 @@ h4 > h6{
 }
 .comment-form{
     margin: auto;
+    /* width: auto; */
+}
+#comment_input{
+    width: fit-content;
 }
 .comments:hover{
     background: #ffff;
 }
-.Bottom{
+.subcribe{
     /* align-items: flex-end; */
     display: flex;
     flex-direction: column;
@@ -153,11 +165,11 @@ h4 > h6{
     margin: auto;
     margin-bottom: 10px;
 }
-.Bottom_header{
+.subscribe_header{
     padding-top: 5px;
     text-align: center;
 }
-.subcribe_Docket{
+.subcribe_section{
     margin: auto;
 }
 #newsletter_subscibe{
